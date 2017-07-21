@@ -7,6 +7,6 @@ setuptools.setup(
     install_requires=[
         'notebook',
     ],
-    asdasdasda
+
     package_data={'jupyterlab_git': ['static/*']},
 )
