@@ -12,7 +12,7 @@ class TerminalPageHandler(tornado.web.RequestHandler):
         return self.render("termpage.html", static=self.static_url,
                            xstatic=self.application.settings['xstatic_url'],
                            ws_url_path="/websocket")
-
+# comment
 if __name__ == '__main__':
     term_manager = terminado.SingleTermManager(shell_command=['bash'])
     handlers = [
