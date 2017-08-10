@@ -14,7 +14,8 @@ setuptools.setup(
     fs
     df
     sd
-    fs
+    
+    asdasdasdasd
 )
 
 
